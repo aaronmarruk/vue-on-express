@@ -1,7 +1,7 @@
 const Vue = require('vue/dist/vue.min.js');
-const info = require('./components/browser-info.vue');
+const demo = require('./components/demo.vue');
 
-Vue.component('app', info);
+Vue.component('app', demo);
 
 console.log('Vue', Vue);
 
