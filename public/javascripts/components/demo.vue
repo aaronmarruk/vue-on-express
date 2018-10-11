@@ -8,17 +8,7 @@
 <script>
   module.exports = {
     props: [ 'title' ],
-    mounted() {
-      console.log('JI', this.title);
-    },
-    data() {
-      console.log('WHAT', this.title);
-      return {
-        title: this.title
-      }
-    }
   };
-  
 </script>
 
 <style lang="scss">
