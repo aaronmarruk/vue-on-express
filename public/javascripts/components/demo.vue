@@ -7,11 +7,14 @@
 
 <script>
   module.exports = {
-    props: [ 'params' ],
-
+    props: [ 'title' ],
+    mounted() {
+      console.log('JI', this.title);
+    },
     data() {
+      console.log('WHAT', this.title);
       return {
-        title: this.params.title
+        title: this.title
       }
     }
   };

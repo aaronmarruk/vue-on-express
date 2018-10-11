@@ -2,8 +2,9 @@ extends layout
 
 block content
   div(data-behaviour="vue")
+    
     app(
-      :params=params
+      v-bind=params
     )
 
 
